@@ -25,7 +25,7 @@ final class Property
 
     private string $name;
     public ?RdfResource $resource = null;
-    public string $cardinality;
+    public ?string $cardinality = null;
     public ?RdfResource $range = null;
     public ?string $rangeName = null;
     /** @var array<string, string|string[]> */
